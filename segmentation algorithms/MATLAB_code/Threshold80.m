@@ -1,0 +1,22 @@
+clc;
+clear ;
+close all;
+
+IRGB=imread('D:\Internships\IITH\Matlab/dog_smaple.jpg');
+subplot(2,2,1);
+imshow(IRGB);
+title('RGB image');
+subplot(2,2,2);
+IG=rgb2gray(IRGB);
+imshow(IG);
+title('Gray image');
+h=imhist(IG);
+subplot(2,2,3);
+plot(h);
+title('Histogram');
+level=graythresh(IG);
+k=level*255;
+bw=imbinarize(IG,level);
+subplot(2,2,4);
+imshow(bw);
+title('OSTU=129');
