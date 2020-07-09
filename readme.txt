@@ -8,6 +8,6 @@
 
 (I have used PyCharm Community version plateform)
 
-2.MATLAB Community version with computer vision tool installed
+2.MATLAB Community version with computer version tool installed
 
 P.S All codes are well documented.
