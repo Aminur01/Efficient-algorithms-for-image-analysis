@@ -3,7 +3,7 @@
 
 1.OpenCV + Python
 
-->python version 3.6.0
+->python version 3.6.1
 ->openCV version 4.3.0
 
 (I have used PyCharm Community version plateform)
